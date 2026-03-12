@@ -51,7 +51,17 @@ nav ul li a.active {
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
+    position: relative; 
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    padding: 5px 10px;
+}
+
+.hero a:hover {
+    border-bottom: 2px solid #ff004f;
 }
 .overlay {
     position: absolute;
